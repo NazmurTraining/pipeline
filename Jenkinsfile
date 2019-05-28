@@ -19,7 +19,7 @@ pipeline {
 
             steps {
 
-                                                   echo "this is step1"
+                          sh "mvn package"
 
                 //
 
