@@ -7,7 +7,7 @@ pipeline {
         stage('SCM') {
 
             steps {
-                          git ""
+                          git "https://github.com/NazmurTraining/pipeline.git"
 
                 //
 
