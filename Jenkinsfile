@@ -27,7 +27,7 @@ pipeline {
 
         }
 
-        stage('Deploy') {
+        stage('Deploy1') {
 
             steps {
 
@@ -39,7 +39,7 @@ pipeline {
 
         }
 
-                                stage('Deploy') {
+                                stage('Deploy2') {
 
             steps {
 
@@ -51,7 +51,7 @@ pipeline {
 
         }
 
-                                stage('Deploy') {
+                                stage('Deploy3') {
 
             steps {
 
